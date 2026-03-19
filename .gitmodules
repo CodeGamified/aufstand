@@ -1,0 +1,3 @@
+[submodule "Aufstand/Assets/Engine"]
+	path = Aufstand/Assets/Engine
+	url = https://github.com/CodeGamified/.engine.git
