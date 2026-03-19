@@ -141,7 +141,7 @@ namespace Aufstand.Core
             if (enableTUI) CreateTUI();
 
             WireEvents();
-            StartCoroutine(RunBootSequence());
+            RunAfterFrames(() => Log("Boot complete."));
         }
 
         // =================================================================
